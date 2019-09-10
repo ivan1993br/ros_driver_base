@@ -15,6 +15,7 @@ catkin_package(
     LIBRARIES ${PROJECT_NAME} pthread
 )
 
+
 add_library(ros_driver_base
     src/driver.cpp
     src/bus.cpp
