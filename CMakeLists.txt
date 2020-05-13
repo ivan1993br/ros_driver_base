@@ -26,6 +26,7 @@ add_library(ros_driver_base
     src/test_stream.cpp
 )
 
+
 install(TARGETS ros_driver_base
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
